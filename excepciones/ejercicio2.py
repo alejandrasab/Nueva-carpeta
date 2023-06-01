@@ -1,4 +1,5 @@
-#Crea una aplicación reciba la clave de un diccionario y acceda a uno de sus valores. 
+#Crea una aplicación reciba la clave de un diccionario y acceda a uno de sus valores.
+#up
 diccionario = {"hola1": "adios1", "hola2": "adios2", "hola3": "adios3"}
 
 def obtener_valor_diccionario():
