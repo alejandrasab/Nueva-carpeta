@@ -16,24 +16,12 @@ class Coche:
         self.gasolina += litros
 
 mi_coche = Coche("ABC123", "Ford", 0, 50)
-print(mi_coche.gasolina)  # 50
+print(f'comence con {mi_coche.gasolina} de gasolina')
 
-mi_coche.avanzar(50)
-print(mi_coche.kilometros_recorridos)  # 50
-print(mi_coche.gasolina)  # 45
-
-mi_coche.avanzar(100)
-print(mi_coche.kilometros_recorridos)  # 150
-print(mi_coche.gasolina)  # 35
-
-mi_coche.avanzar(40)
-print(mi_coche.kilometros_recorridos)  # 190
-print(mi_coche.gasolina)  # 31
-
-mi_coche.avanzar(180)
-print(mi_coche.kilometros_recorridos)  # 370
-print(mi_coche.gasolina)  # 13
+mi_coche.avanzar(30)
+print(f'kilometros recorridos: {mi_coche.kilometros_recorridos}')  
+print(f'tengo: {mi_coche.gasolina}L de gasolina')  
 
 mi_coche.repostar(10)
-print(mi_coche.gasolina)  # 23 
+print(f'y como repostee ahora tengo {mi_coche.gasolina}L de gasolina')  
 
